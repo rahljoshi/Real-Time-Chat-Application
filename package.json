@@ -1,0 +1,26 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahljoshi/Real-Time-Chat-Application.git"
+  },
+  "author": "Rahul Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahljoshi/Real-Time-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/rahljoshi/Real-Time-Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
